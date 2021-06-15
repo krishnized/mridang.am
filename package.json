@@ -1,0 +1,16 @@
+{
+  "name": "mridang.am",
+  "version": "1.0.0",
+  "description": "Mridangam hub",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./_site",
+    "build": "npm run clean && eleventy",
+    "start": "eleventy --serve --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
