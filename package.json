@@ -5,10 +5,17 @@
   "main": "index.js",
   "scripts": {
     "clean": "jekyll clean",
-    "build": "jekyll build",
-    "start": "jekyll s"
+    "build": "jekyll build && npm run build-js",
+    "start": "jekyll s",
+    "build-js": "esbuild assets/main.js --outfile=_site/assets/main.js --bundle --minify --sourcemap",
+    "watch": "esbuild assets/main.js --outfile=_site/assets/main.js --bundle --watch"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "esbuild": "^0.12.9"
+  },
+  "dependencies": {
+    "plyr": "^3.6.8"
+  }
 }
