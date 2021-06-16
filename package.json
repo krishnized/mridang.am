@@ -4,13 +4,11 @@
   "description": "Mridangam hub",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf ./_site",
-    "build": "npm run clean && eleventy",
-    "start": "eleventy --serve --watch"
+    "clean": "jekyll clean",
+    "build": "jekyll build",
+    "start": "jekyll s"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
-  }
+  "devDependencies": {}
 }
