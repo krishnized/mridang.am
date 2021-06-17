@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/main.css">
-    <script type="text/javascript" src="/assets/main.js"></script>
+    <script type="text/javascript" src="/assets/main.js" defer async></script>
   </head>
   <body>
+    <!--
     <nav>
       <a href="/">Home</a>
       <a href="/blog/">Blog</a>
     </nav>
     <h1>{{ page.title }}</h1>
-    <iframe width="560" height="315" src="{{ page.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    -->
+    <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="{{ page.video }}"></div>
     <section>
+      {{ page.parts[0]mantra }}
       {{ content }}
     </section>
     <footer>
