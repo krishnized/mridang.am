@@ -1,4 +1,35 @@
-.plyr iframe[id^=youtube] {
+/* stick footer */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+
+
+.plyr {
+  --plyr-color-main: #e52f3b;
+}
+
+/*
+ * trick youtubes to hide title/info
+ * see https://github.com/sampotts/plyr/issues/976#issuecomment-862810641
+*/
+.plyr--youtube iframe {
+  display: none;
   top: -50%;
   height: 200%;
+}
+.plyr--youtube.plyr--ready iframe {
+  display: block;
 }
