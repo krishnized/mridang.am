@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Te Re Khe Ta & Variations
-video: "https://www.youtube.com/embed/EO4urNqjjRE?start=10"
+video: "https://youtu.be/EO4urNqjjRE"
 parts:
   - title: Mantra
     clip: []

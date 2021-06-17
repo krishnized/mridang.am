@@ -15,7 +15,13 @@
     <h1>{{ page.title }}</h1>
     -->
     <div class="content">
-      <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="{{ page.video }}" data-poster=""></div>
+      <video
+        id="player"
+        class="video-js vjs-theme-forest"
+        controls
+        data-src="{{ page.video }}"
+      >
+      </video>
       <section>
         {{ page.parts[0]mantra }}
         {{ content }}

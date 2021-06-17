@@ -6,6 +6,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  /*--player-color-main: #e52f3b;*/
 }
 .content {
   flex: 1 0 auto;
@@ -17,19 +18,11 @@ body {
 
 
 
-.plyr {
-  --plyr-color-main: #e52f3b;
+.video-js {
+  font-size: 10px;
+  width: 100%;
+  min-height: 40vh;
 }
+.vjs-has-started #player_youtube_api {
 
-/*
- * trick youtubes to hide title/info
- * see https://github.com/sampotts/plyr/issues/976#issuecomment-862810641
-*/
-.plyr--youtube iframe {
-  display: none;
-  top: -50%;
-  height: 200%;
-}
-.plyr--youtube.plyr--ready iframe {
-  display: block;
 }
