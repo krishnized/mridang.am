@@ -45,7 +45,7 @@ player.on('ready', p => {
 
   // trick youtubes to hide title/info
   // see https://github.com/sampotts/plyr/issues/976#issuecomment-862810641
-  await event(player, 'timeupdate', p => {
+  player.on('timeupdate', p => {
     player.elements.container.classList.add('plyr--ready')
   })
 })
