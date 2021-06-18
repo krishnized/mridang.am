@@ -19,13 +19,6 @@ parts:
       TE RE KHE TA
       TE RE TE RE TE RE KHE TA
 ---
-
-<header>
-  <h2>Mayapur Mridanga</h2>
-  <h1>§ 1. Te Re Khe Ta & Variations</h1>
-  <a href="" class="next">→ § 2.</a>
-</header>
-
 <section class="mantra">
   <a href="#1" class="anchor">Mantra</a>
   <ruby>
