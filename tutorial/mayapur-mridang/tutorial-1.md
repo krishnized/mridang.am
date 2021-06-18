@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Te Re Khe Ta & Variations
-video: "https://www.youtube-nocookie.com/embed/EO4urNqjjRE"
+video: "EO4urNqjjRE"
 parts:
   - title: Mantra
     clip: []
@@ -19,16 +19,6 @@ parts:
       TE RE KHE TA
       TE RE TE RE TE RE KHE TA
 ---
-<section class="mantra">
-  <a href="#1" class="anchor">Mantra</a>
-  <ruby>
-    Te<rt>||||</rt>&nbsp;Re<rt>/</rt>&nbsp;Ke<rt>•</rt>&nbsp;Ta<rt></rt>
-  </ruby>
-</section>
+{% include mantra.html title="Mantra" mantra="TE RE KE TA" %}
 <br/>
-<section class="mantra">
-  <a href="#2" class="anchor">Vistar 1.</a>
-  <ruby>
-    Te<rt>||||</rt>&nbsp;Re<rt>/</rt>&nbsp;Ke<rt>•</rt>&nbsp;Ta<rt></rt>
-  </ruby>
-</section>
+{% include mantra.html title="Vistar 1." mantra="TE RE KE TA" %}

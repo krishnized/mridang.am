@@ -22,6 +22,7 @@
     "spect": "^23.0.2",
     "video.js": "^7.12.3",
     "videojs-youtube": "^2.6.1",
+    "vlitejs": "^4.0.1",
     "yt-player": "^3.5.0"
   }
 }
