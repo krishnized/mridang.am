@@ -37,6 +37,11 @@ body {
   text-align: center;
 }
 
+
+.v-vlite {
+  max-height: 50vh;
+}
+
 .mantra ruby {
   ruby-position: under;
   /*font-size: 1.728rem;*/

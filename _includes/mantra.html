@@ -1,8 +1,5 @@
-
-<section class="mantra">
-  <a href="#1" class="anchor">{{ include.title }}</a>
-  <ruby>
-    {{ include.mantra }}
-    <!-- Te<rt>||||</rt>&nbsp;Re<rt>/</rt>&nbsp;Ke<rt>•</rt>&nbsp;Ta<rt></rt> -->
-  </ruby>
-</section>
+<ruby>
+  {% assign parts = include.mantra | split: " " %}
+  {% for part in parts %}{% assign Part = part | capitalize %}{{ Part }}&nbsp;<rt>{{ site.data.dict[Part] }}</rt>{% endfor %}
+  <!-- Te<rt>||||</rt>&nbsp;Re<rt>/</rt>&nbsp;Ke<rt>•</rt>&nbsp;Ta<rt></rt> -->
+</ruby>

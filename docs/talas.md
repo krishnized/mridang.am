@@ -4,6 +4,7 @@ Tal defines size.
 
 Ref: [wiki](https://en.wikipedia.org/wiki/Tala_(music))
 
+* Aditala
 * Tintal
 * Jhoomra tal  3+4+3+3  14 beats
 * Tilwada

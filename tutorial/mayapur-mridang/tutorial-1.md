@@ -19,6 +19,8 @@ parts:
       TE RE KHE TA
       TE RE TE RE TE RE KHE TA
 ---
-{% include mantra.html title="Mantra" mantra="TE RE KE TA" %}
 <br/>
-{% include mantra.html title="Vistar 1." mantra="TE RE KE TA" %}
+
+{% include mantra-section.html title="Mantra" mantra="Te re khe ta" %}
+<br/>
+{% include mantra-section.html title="Vistar 1." mantra="TE RE KE TA" %}

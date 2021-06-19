@@ -14,11 +14,12 @@ const player = new Vlitejs('#player',{
     volume: false,
     fullscreen: false,
     poster: false,
-    // loop: true,
-    // providerParams: {start: 1, end: 2, loop: 1}
+    loop: true,
+    providerParams: {start: 1, end: 2}
   },
   provider: 'youtube',
   onReady: async (player) => {
-    player.seekTo(1)
+    // setTimeout(() => player.play(), 1000)
+    // setTimeout(() => player.seekTo(5), 2000)
   }
 });
