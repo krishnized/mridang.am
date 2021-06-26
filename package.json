@@ -16,14 +16,10 @@
     "esbuild": "^0.12.9"
   },
   "dependencies": {
-    "@videojs/themes": "^1.0.1",
     "mvp.css": "^1.7.4",
     "ress": "^4.0.0",
     "spect": "^23.0.2",
-    "video.js": "^7.12.3",
-    "videojs-youtube": "^2.6.1",
     "vlitejs": "^4.0.1",
-    "water.css": "^2.0.0",
-    "yt-player": "^3.5.0"
+    "water.css": "^2.0.0"
   }
 }
