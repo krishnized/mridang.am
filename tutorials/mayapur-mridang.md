@@ -217,7 +217,7 @@ TA TERE KHETA TA TERE KHETA
 TA TERE KHETA TA TERE KHETA
 <!-- x4 180 -->
 
-### [Tutorial 7. Da Guru Guru. HATUTI](https://youtu.be/GgI4MSkN8rg)
+## [Tutorial 7. Da Guru Guru. HATUTI](https://youtu.be/GgI4MSkN8rg)
 
 > [Mantra](https://youtu.be/GgI4MSkN8rg?t=0m16s)
 JHA GHIT TE TEE GHE NA
@@ -230,83 +230,76 @@ Da Guru Guru
 Da Guru Guru
 Da Guru
 
-### [8. Dad Dhei Ta](https://www.youtube.com/watch?v=nTq_l1GA6lg&list=PLrClz8-gPOVGfG6h6s-FLL-UbA79_eDiq&index=8)
+## [Tutorial 8. Da Guru Gurur & Variation](https://youtu.be/nTq_l1GA6lg)
 
-> Dad Dhei Ta Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Dad Dhei Ta Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Dad Dhei Ta Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Dad Dhei Ta Guru Guru Da Guru
-> Dad Dhei Ta Guru Guru Da Guru
-> Dad Dhei Ta Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Dad Dhei Ta Dad Dhei Ta
-> Dad Dhei Ta Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-x4 143
+> 1.
+Dad Dhei ta guru guru da guru
+Da guru guru da guru guru da guru
+Dad Dhei ta guru guru da guru
+Da guru guru da guru guru da guru
+Dad Dhei ta guru guru da guru
+Da guru guru da guru guru da guru
+Dad Dhei ta guru guru da guru
+Dad Dhei ta guru guru da guru
+Dad Dhei ta guru guru da guru
+Da guru guru da guru guru da guru
+Dad Dhei ta
+Dad Dhei ta
+Dad Dhei ta
+Guru guru da guru
+Da Guru guru da
+guru guru da guru
+<!-- x4 143 -->
 
-#### [8.1. GherGeda](https://youtu.be/nTq_l1GA6lg?t=2m22s)
-> Ghe Ne Ne Re Ghe Ne Da
-> Khe Ne Ne Re Khe Ne Da
-> Gher Geda
-> Kher Geda
+> [2.](https://youtu.be/nTq_l1GA6lg?t=2m22s)
+Ghe Ne Ne Re Ge Ne Da
+Khe Ne Ne Re Ge Ne Da
+
+> [3.]()
+Gher Geda
+Kher Geda
 x4 156
 
+> [4.](https://youtu.be/nTq_l1GA6lg?t=3m00s)
+Gher Geda guru guru da guru
+Da guru guru da guru guru da guru
+Gher Geda guru guru da guru
+Da guru guru da guru guru da guru
+Gher Geda guru guru da guru
+Da guru guru da guru guru da guru\
+Gher Geda guru guru da guru
+Gher Geda guru guru da guru
+Gher Geda guru guru da guru
+Da guru guru da guru guru da guru\
+Gher Geda Gher Geda
+Gher Geda Guru guru da guru
+Da Guru guru da guru guru da guru
 
-### [8.2](https://youtu.be/nTq_l1GA6lg?t=3m00s)
-> Gher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Gher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Gher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Gher Geda Guru Guru Da Guru
-> Gher Geda Guru Guru Da Guru
-> Gher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Gher Geda Gher Geda
-> Gher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-x4 142
+> [5.](https://youtu.be/nTq_l1GA6lg?t=3m48s)
+Kher Geda guru guru da guru
+Da guru guru da guru guru da guru
+Kher  Geda guru guru da guru
+Da guru guru da guru guru da guru
+Kher  Geda guru guru da guru
+Da guru guru da guru guru da guru\
+Kher  Geda guru guru da guru
+Kher  Geda guru guru da guru
+Kher  Geda guru guru da guru
+Da guru guru da guru guru da guru\
+Kher  Geda Kher  Geda
+Kher  Geda Guru guru da guru
+Da Guru guru da guru guru da guru
 
-### [8.3](https://youtu.be/nTq_l1GA6lg?t=3m48s)
-> Kher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Kher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Kher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Kher Geda Guru Guru Da Guru
-> Kher Geda Guru Guru Da Guru
-> Kher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-> Kher Geda Kher Geda
-> Kher Geda Guru Guru Da Guru
-> Da Guru Guru Da Guru Guru Da Guru
-x4 140
+> [6. TIHAI](https://youtu.be/nTq_l1GA6lg?t=4m10s)
+GURU GURU DAD DHIN
+TERE KHETA GI GHI NAK
+JHA
+GURU GURU DAD DHIN
+TERE KHETA GI GHI NAK
+JHA
+GURU GURU DAD DHIN
+TERE KHETA GI GHI NAK
 
-### [8.4. Tehais](https://youtu.be/nTq_l1GA6lg?t=4m10s)
-> Guru Guru Dad Dhin
-> Tere Kheta Gi Ghi Nak
-> Jha [Guru Guru]
-> Guru Guru Dad Dhin
-> Tere Kheta Gi Ghi Nak
-> Jha [Guru Guru]
-> Guru Guru Dad Dhin
-> Tere Kheta Gi Ghi Nak
-x4
-
-### [8.5](https://youtu.be/nTq_l1GA6lg?t=5m22s)
-> DaGuru x8
-> DaDheiTa
-> DaGuru x8
-> GherGeda
-> KherGeda
-> DaGuru x8
-> Tehais
-x4 135
 
 ### [9. Common mantra](https://youtu.be/O9T28m3eIWA)
 > Jha Guru Guru Dad Dhe Na
