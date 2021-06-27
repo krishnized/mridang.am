@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="assets/water.css">
-    <link rel="stylesheet" href="assets/main.css">
-    <script type="text/javascript" src="assets/main.js" defer async></script>
+    <link rel="stylesheet" href="{{ 'assets/water.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/main.css' | relative_url }}">
+    <script type="text/javascript" src="{{ 'assets/main.js' | relative_url }}" defer async></script>
     <script type="text/javascript" src="https://www.youtube.com/iframe_api" async defer></script>
   </head>
   <body>
@@ -67,6 +67,57 @@
           </h1> -->
         </header>
         {{ content }}
+        <script type="module">
+          const mainEl = document.querySelector('main')
+          const h2s = [...mainEl.querySelectorAll('h2')]
+
+          // Add ids to headers
+          // h2s.forEach(h2 => h2.id = h2.textContent.split('.')[0].toLowerCase().replace(' ','-'))
+
+          // TOC: collect all headers, place into TOC div
+          const tocEl = mainEl.appendChild(toc())
+          function toc () {
+            let tocEl = document.createElement('nav')
+            tocEl.className = 'toc'
+
+            document.head.appendChild(document.createElement('style')).innerHTML = `
+              .toc {
+                position: fixed; top: 1rem; right: 1rem;
+                display: flex; flex-direction: column;
+                width: 17.28rem;
+                font-size: small;
+              }
+              .toc a {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                display: block;
+              }
+              .toc a.active {
+                font-weight: bolder;
+              }
+            `
+
+            tocEl.append(...h2s.map(h2 => {
+              let a = document.createElement('a')
+              a.textContent = h2.textContent
+              a.href=`#${h2.id}`
+              a.title = h2.textContent
+              return a
+            }))
+            return tocEl
+          }
+
+          // highlight in-view title
+          window.addEventListener('scroll', () => {
+            let h2 = h2s.find(h2 => {
+              var rect = h2.getBoundingClientRect();
+              return rect.top >= 0
+            })
+            tocEl.querySelectorAll('a').forEach(a => a.classList.remove('active'))
+            tocEl.querySelector(`[href="#${h2.id}"]`).classList.add('active')
+          })
+        </script>
       </main>
     </div>
 
