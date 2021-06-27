@@ -93,7 +93,7 @@
                 overflow: hidden;
                 display: block;
               }
-              .toc a.active {
+              .toc a.in-view {
                 font-weight: bolder;
               }
             `
@@ -109,14 +109,17 @@
           }
 
           // highlight in-view title
-          window.addEventListener('scroll', () => {
-            let h2 = h2s.find(h2 => {
-              var rect = h2.getBoundingClientRect();
-              return rect.top >= 0
-            })
-            tocEl.querySelectorAll('a').forEach(a => a.classList.remove('active'))
-            tocEl.querySelector(`[href="#${h2.id}"]`).classList.add('active')
-          })
+           const observer = new IntersectionObserver(entries => {
+              entries.forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                if (entry.intersectionRatio > 0) {
+                  tocEl.querySelector(`[href="#${id}"]`).classList.add('in-view');
+                } else {
+                  tocEl.querySelector(`[href="#${id}"]`).classList.remove('in-view');
+                }
+              });
+            });
+          h2s.forEach((h2) => observer.observe(h2));
         </script>
       </main>
     </div>
