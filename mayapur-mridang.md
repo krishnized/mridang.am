@@ -7,7 +7,7 @@ author: Bimal Chaitanya Das
 
 # [{{ page.title }} <br/>_<small>(by {{ page.author }})</small>_]({{ page.url }})
 
-## [Tutorial 1. TE RE KHE TA & Variations](https://youtu.be/EO4urNqjjRE?t=2m08s)
+## [Tutorial 1. TE RE KHE TA](https://youtu.be/EO4urNqjjRE?t=2m08s)
 
 > [Mantra](https://youtu.be/EO4urNqjjRE?t=2m08s)
 TE RE KHE TA
@@ -143,17 +143,17 @@ TA TERE KHETA
 TA THI NI
 x4 92
 
-## [Tutorial 5. Jha -- Tere Tere Kheta Takha Tere Kheta & Variation](https://youtu.be/nh6Xgn_sqGM)
+## [Tutorial 5. JHA - TERE TERE KHETA TAKHA TERE KHETA](https://youtu.be/nh6Xgn_sqGM)
 
 > [Mantra ](https://youtu.be/nh6Xgn_sqGM?t=0m06s)
-JHA -- TERE TERE KHETA TAKHA TERE KHETA
-TA  -- TERE TERE KHETA TAKHA TERE KHETA
+JHA - TERE TERE KHETA TAKHA TERE KHETA
+TA  - TERE TERE KHETA TAKHA TERE KHETA
 <!-- x4 150 -->
 
 > [Vistar 1](https://youtu.be/nh6Xgn_sqGM?t=1m46s)
-JHA   --   TERE TERE KHETA TAKHA TERE KHETA
+JHA   -   TERE TERE KHETA TAKHA TERE KHETA
 TERE KHETA TERE TERE KHETA TAKHA TERE KHETA
-TA    --   TERE TERE KHETA TAKHA TERE KHETA
+TA    -   TERE TERE KHETA TAKHA TERE KHETA
 TERE KHETA TERE TERE KHETA TAKHA TERE KHETA
 <!-- x4 155 -->
 
@@ -168,57 +168,57 @@ x4 156
 
 > [Vistar 3](https://youtu.be/VGKxGwXzDvU?t=1m00s)
 JHA JHA JHA JHA
---  JHA JHA JHA
-JHA -- TERE TERE
+-  JHA JHA JHA
+JHA - TERE TERE
 KHETA TAKHA TERE KHETA
 TA TA TA TA
--- TA TA TA
-TA -- TERE TERE
+- TA TA TA
+TA - TERE TERE
 KHETA TAKHA TERE KHETA
 <!-- x4 166 -->
 
 > [Vistar 4](https://youtu.be/VGKxGwXzDvU?t=2m14s)
-JHA JHA -- JHA
---  JHA JHA JHA
-JHA -- TERE TERE
+JHA JHA - JHA
+-  JHA JHA JHA
+JHA - TERE TERE
 KHETA TAKHA TERE KHETA
-TA TA -- TA
--- TA TA TA
-TA -- TERE TERE
+TA TA - TA
+- TA TA TA
+TA - TERE TERE
 KHETA TAKHA TERE KHETA
 <!-- x4 170+ -->
 
 > [Vistar 5](https://youtu.be/VGKxGwXzDvU?t=3m21s)
-JHA JHA -- JHA
---  JHA JHA JHA
-JHA -- TERE TERE KHETA TAK
-JHA -- TERE TERE KHETA TAK
-JHA -- TERE TERE KHETA TAK
-JHA -- TERE TERE KHETA TAK
-TA TA -- TA
--- TA TA TA
-TA -- TERE TERE KHETA TAK
-TA -- TERE TERE KHETA TAK
-TA -- TERE TERE KHETA TAK
-TA -- TERE TERE KHETA TAK
+JHA JHA - JHA
+-  JHA JHA JHA
+JHA - TERE TERE KHETA TAK
+JHA - TERE TERE KHETA TAK
+JHA - TERE TERE KHETA TAK
+JHA - TERE TERE KHETA TAK
+TA TA - TA
+- TA TA TA
+TA - TERE TERE KHETA TAK
+TA - TERE TERE KHETA TAK
+TA - TERE TERE KHETA TAK
+TA - TERE TERE KHETA TAK
 <!-- x4 160 -->
 
 > [Vistar 6](https://youtu.be/VGKxGwXzDvU?t=4m22s)
-JHA JHA -- JHA
---  JHA JHA JHA
-JHA -- TERE TERE KHETA TAK
-JHA -- TERE TERE KHETA TAK
+JHA JHA - JHA
+-  JHA JHA JHA
+JHA - TERE TERE KHETA TAK
+JHA - TERE TERE KHETA TAK
 JHA TERE KHETA JHA TERE KHETA
 JHA TERE KHETA JHA TERE KHETA
-TA TA -- TA
--- TA TA TA
-TA -- TERE TERE KHETA TAK
-TA -- TERE TERE KHETA TAK
+TA TA - TA
+- TA TA TA
+TA - TERE TERE KHETA TAK
+TA - TERE TERE KHETA TAK
 TA TERE KHETA TA TERE KHETA
 TA TERE KHETA TA TERE KHETA
 <!-- x4 180 -->
 
-## [Tutorial 7. Da Guru Guru. HATUTI](https://youtu.be/GgI4MSkN8rg)
+## [Tutorial 7. DA GURU GURU. HATUTI](https://youtu.be/GgI4MSkN8rg)
 
 > [Mantra](https://youtu.be/GgI4MSkN8rg?t=0m16s)
 JHA GHIT TE TEE GHE NA
@@ -231,7 +231,7 @@ DA GURU GURU
 DA GURU GURU
 DA GURU
 
-## [Tutorial 8. Da Guru Gurur & Variation](https://youtu.be/nTq_l1GA6lg)
+## [Tutorial 8. DA GURU GURU & Variation](https://youtu.be/nTq_l1GA6lg)
 
 > 1.
 DAD DHEI TA GURU GURU DA GURU
@@ -314,7 +314,7 @@ DA GURU GURU DA GURU GURU DHE NA
 JHA KHI KHI
 <!-- x4 130 -->
 
-## [Tutorial 10. Dhereti Dhereti Dhere](https://youtu.be/6DIWhn67BgY)
+## [Tutorial 10. DHERETI DHERETI DHERE](https://youtu.be/6DIWhn67BgY)
 
 > [Hatuti mantra](https://youtu.be/6DIWhn67BgY?t=0m26s)
 DHERETI DHERETI DHERE
@@ -375,7 +375,7 @@ KHENENERE KHENENAW TEREKHETA
 NINGTAKHA TEREKHETA
 <!-- x4 130 -->
 
-## [Tutorial 14. 16 Beats Hatuti | Long Tehai | Ghenaw Tinita Kheta](https://youtu.be/B3H2uD09vS0)
+## [Tutorial 14. 16 Beats Hatuti | Long Tehai | GHENAW TINITA KHETA](https://youtu.be/B3H2uD09vS0)
 
 > [Hatuti mantra](https://youtu.be/B3H2uD09vS0?t=15)
 GHENAW TINITAKHETA
@@ -388,7 +388,7 @@ TERETEREKHETATAK JHATERETERE
 KHETATAKJHA TERETEREKHETATAK
 <!-- x155 -->
 
-## [Tutorial 15. 32 Beats Hatuti and Long Tehai | Dhere Kete Dhere Kete](https://youtu.be/z1L0SrIGCSY)
+## [Tutorial 15. 32 Beats Hatuti and Long Tehai | DHERE KETE DHERE KETE](https://youtu.be/z1L0SrIGCSY)
 
 > [Hatuti mantra](https://youtu.be/z1L0SrIGCSY?t=32)
 DHEREKETE DHEREKETE DHATDHAT DHEREKETE
@@ -400,7 +400,7 @@ KATAKATA GADIGHINI TETEEKATA GADIGHINI JHA
 KATAKATA GADIGHINI TETEEKATA GADIGHINI
 <!-- x4 112 -->
 
-## [Tutorial 16. 28 Beats | DaGuruGuru DaGuruGuru GheNeNere Ghene Naw](https://youtu.be/34AVd3a2RV4)
+## [Tutorial 16. 28 Beats | DAGURUGURU DAGURUGURU GHENENERE GHENE NAW](https://youtu.be/34AVd3a2RV4)
 
 > [Hatuti Mantra](https://youtu.be/34AVd3a2RV4?t=24)
 DAGURU GURUDA GURUGURU GHENENERE
@@ -432,7 +432,7 @@ TAKHENA KHENAW DERE GHENA GHINI JHA
 TA THEI TA THEI   TA
 <!-- x4 108 -->
 
-## [Tutorial 18. Dhene Dhene Nak Dhene | Hatuti 24 Beats](https://youtu.be/kEJGIiopWXs)
+## [Tutorial 18. DHENE DHENE NAK DHENE | Hatuti 24 Beats](https://youtu.be/kEJGIiopWXs)
 
 > [Mantra](https://youtu.be/kEJGIiopWXs?t=11)
 DHENE DHENE NAK DHENE
@@ -449,7 +449,7 @@ NING TAK TERE KHETA
 GHER GHENA GI GHI NAK
 <!-- x4 108 -->
 
-## [Tutorial 19. Dhene Dhene Nak Dhene | 16 beats | Bimala Chaitanya Das](https://youtu.be/B6YXBfY95zM)
+## [Tutorial 19. DHENE DHENE NAK DHENE | 16 beats | Bimala Chaitanya Das](https://youtu.be/B6YXBfY95zM)
 
 > [Mantra](https://youtu.be/B6YXBfY95zM?t=22)
 DHENE DHENE NAK DHENE
@@ -487,7 +487,7 @@ GHERKE DAGHINI TAK DHENA KHETA JHA KOT
 GHERKE DAGHINI TAK DHENA KHETA JHA KOT
 GHERKE DAGHINI TAK DHENA KHETA
 
-## [Tutorial 21. Dho Kheta Nag Dhini Nag Dhini Dheiya](https://youtu.be/mjz21SaKO2M)
+## [Tutorial 21. DHO KHETA NAG DHINI NAG DHINI DHEIYA](https://youtu.be/mjz21SaKO2M)
 
 > [Mantra](https://youtu.be/mjz21SaKO2M?t=58)
 DHO KHETA NAG DHINI NAG DHINI DHEIYA
@@ -560,7 +560,7 @@ TAK TETEE TETEE DHA TETEE TETEE NAK TETEE TETEE
 DHA TEREKETE TA TEREKETE
 DHINAK DHINAK
 
-## [Tutorial 24. Jha Treke Jhini Jhini | Jamali Patch | 28 Beats](https://youtu.be/jYxbHQwWjFw)
+## [Tutorial 24. JHA TREKE JHINI JHINI | Jamali Patch | 28 Beats](https://youtu.be/jYxbHQwWjFw)
 
 > [Mantra](https://youtu.be/jYxbHQwWjFw?t=41)
 JHA TREKE JHINI JHINI
@@ -575,7 +575,7 @@ TINI TINI TREKE TINI
 TRETATTI JHA
 TRETATTI GURU GURU] * 3
 
-## [Tutorial 25. Gredhen Takheta Taklanta | Long Tehai | 16 Beats](https://youtu.be/WRSwcMCvKpQ)
+## [Tutorial 25. GREDHEN TAKHETA TAKLANTA | Long Tehai | 16 Beats](https://youtu.be/WRSwcMCvKpQ)
 
 > [Mantra](https://youtu.be/WRSwcMCvKpQ?t=41)
 GREDHEN TAKHETA TAKLANTA KHETAK DAGHENA
@@ -586,7 +586,7 @@ GREDHEN TAKHETA TAK TAK TAK JHA KAT
 GREDHEN TAKHETA TAK TAK TAK JHA KAT
 GREDHEN TAKHETA TAK TAK TAK
 
-## [Tutorial 26. Dheiya Dheiya | Hatuti | 30 beats](https://youtu.be/BPZ4Ok3TzGM)
+## [Tutorial 26. DHEIYA DHEIYA | Hatuti | 30 beats](https://youtu.be/BPZ4Ok3TzGM)
 
 > [Hatuti Mantra](https://youtu.be/BPZ4Ok3TzGM?t=50)
 DHEIYA DHEIYA TAT TAT DHEIYA
