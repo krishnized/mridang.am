@@ -1,7 +1,3 @@
-import 'water.css/out/water.css'
-import './main.css'
-
-
 // import 'vlitejs/dist/vlite.css';
 // import Vlitejs from 'vlitejs';
 // import VlitejsYoutube from 'vlitejs/dist/providers/youtube';

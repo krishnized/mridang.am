@@ -1,3 +1,26 @@
+:root {
+  /*--background-body: ;*/
+  /*--background: ;*/
+  /*--background-alt: ;*/
+  /*--selection: ;*/
+  /*--text-main: ;*/
+  /*--text-bright: ;*/
+  /*--text-muted: ;*/
+  /*--links: #e52f3b;*/
+  /*--focus: #e52f3b0b;*/
+  /*--border: ;*/
+  /*--code: ;*/
+  /*--animation-duration: ;*/
+  /*--button-hover: ;*/
+  /*--scrollbar-thumb: ;*/
+  /*--scrollbar-thumb-hover: ;*/
+  /*--form-placeholder: ;*/
+  /*--form-text: ;*/
+  /*--variable: ;*/
+  /*--highlight: ;*/
+  /*--select-arrow: ;*/
+}
+
 /* stick footer */
 html, body {
   height: 100%;
