@@ -70,6 +70,7 @@
         <script type="module">
           const mainEl = document.querySelector('main')
           const h2s = [...mainEl.querySelectorAll('h2')]
+          const mantraEls = mainEl.querySelectorAll('blockquote')
 
           // Add ids to headers
           // h2s.forEach(h2 => h2.id = h2.textContent.split('.')[0].toLowerCase().replace(' ','-'))
@@ -109,7 +110,7 @@
           }
 
           // highlight in-view title
-           const observer = new IntersectionObserver(entries => {
+          const observer = new IntersectionObserver(entries => {
               entries.forEach(entry => {
                 const id = entry.target.getAttribute('id');
                 if (entry.intersectionRatio > 0) {
@@ -120,6 +121,79 @@
               });
             });
           h2s.forEach((h2) => observer.observe(h2));
+
+
+          // camelcasify mantras
+          const dict = {
+            THUN: 'Thun',
+            TATAKHA: 'TaTaKha',
+            TAKHA: 'TaKha',
+            TAKHE: 'TaKhe',
+            TAKHI: 'TaKhi',
+            TAKA: 'TaKa',
+            TAK: 'Tak',
+            TATA: 'TaTa',
+            TAT: 'Tat',
+            TAAT: 'Taat',
+            THAAT: 'Thaat',
+            TA: 'Ta',
+            TEE: 'Tee',
+            TE: 'Te',
+            THEI: 'Thei',
+            THE: 'The',
+            THI: 'Thi',
+            TI: 'Ti',
+            DRE: 'Dre',
+            DAAD: 'Daad',
+            DAD: 'Dad',
+            DHAT: 'Dhat',
+            DHA: 'Dha',
+            DA: 'Da',
+            DHEI: 'Dhei',
+            DHE: 'Dhe',
+            DHO: 'Dho',
+            DHINI: 'Dhini',
+            DHIN: 'Dhin',
+            DHI: 'Dhi',
+            DI: 'Di',
+            DHAT: 'Dhat',
+            DE: 'De',
+            NING: 'Ning',
+            NI: 'Ni',
+            NE: 'Ne',
+            NAG: 'Nag',
+            NAK: 'Nak',
+            NAW: 'Naw',
+            NA: 'Na',
+            KAAT: 'Kaat',
+            KHER: 'Kher',
+            KE: 'Ke',
+            KHE: 'Khe',
+            KA: 'Ka',
+            KO: 'Ko',
+            KHA: 'Kha',
+            KHI: 'Khi',
+            // GED: 'Ged',
+            GHER: 'Gher',
+            GHE: 'Ghe',
+            GHI: 'Ghi',
+            GI: 'Ghi',
+            GA: 'Ga',
+            GE: 'Ge',
+            JA: 'Ja',
+            JHA: 'Jha',
+            JHEI: 'Jhei',
+            JHE: 'Jhe',
+            JHI: 'Jhi',
+            RE: 'Re',
+            GURU: 'GuRu',
+            URU: 'Uru',
+            GUR: 'GuR',
+            YA: 'Ya'
+          }
+          mantraEls.forEach(el => {
+            for (let key in dict) el.innerHTML = el.innerHTML.replaceAll(key, dict[key])
+          })
         </script>
       </main>
     </div>

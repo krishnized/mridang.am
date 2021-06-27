@@ -83,9 +83,9 @@ KHE NE NE RE KHE NA
 
 > [Vistar 2](https://youtu.be/EwyqA48Ap4E?t=3m05s)
 GHE NE NE RE GHE NA
-GHE NE NE RE GHE NA TA -
+GHE NE NE RE GHE NA TA --
 KHE NE NE RE KHE NA
-KHE NE NE RE KHE NA TA -
+KHE NE NE RE KHE NA TA --
 <!-- x4 156 -->
 
 > [Vistar 3](https://youtu.be/EwyqA48Ap4E?t=4m12s)
@@ -93,31 +93,31 @@ GHE NE NE RE GHE NA
 GHE NE NE RE GHE NA
 NE RE GHE NA
 GHE NE NE RE GHE NA
-GHE NE NE RE GHE NA TA -
+GHE NE NE RE GHE NA TA --
 KHE NE NE RE KHE NA
 KHE NE NE RE KHE NA
 NE RE KHE NA
 KHE NE NE RE KHE NA
-KHE NE NE RE KHE NA TA -
+KHE NE NE RE KHE NA TA --
 <!-- x4 140 -->
 
 ## [Tutorial 4. DA DHI NI JHA TERE KHETA TA THI NI TA TERE KHETA](https://youtu.be/WzPiU2EuTfE)
 
-> [MANTRA](https://youtu.be/WzPiU2EuTfE?t=1m11s)
+> [Mantra](https://youtu.be/WzPiU2EuTfE?t=1m11s)
 DA DHI NI
 JHA TERE KHETA
 TA THI NI
 TA TERE KHETA
 <!-- x4 100 -->
 
-> [VISTER 1](https://youtu.be/WzPiU2EuTfE?t=2m22s)
+> [Vister 1](https://youtu.be/WzPiU2EuTfE?t=2m22s)
 DA DHI NI DA DHI NI
 DA DHI NI JHA TERE KHETA
 TA THI NI  TA THI NI
 TA THI NI TA TERE KHETA
 <!-- x4 96 -->
 
-> [VISTER 2](https://youtu.be/WzPiU2EuTfE?t=3m03s)
+> [Vister 2](https://youtu.be/WzPiU2EuTfE?t=3m03s)
 DA DHI NI JHA
 DA DHI NI JHA
 DA DHI NI
@@ -130,9 +130,9 @@ TA THI NI
 TA THI NI
 TA THI NI
 TA TERE KHETA
-x4 98
+<!-- x4 98 -->
 
-> [VISTER 3](https://youtu.be/WzPiU2EuTfE?t=4m03s)
+> [Vister 3](https://youtu.be/WzPiU2EuTfE?t=4m03s)
 JHA TERE KHETA
 JHA TERE KHETA
 JHA TERE KHETA
@@ -141,11 +141,11 @@ TA TERE KHETA
 TA TERE KHETA
 TA TERE KHETA
 TA THI NI
-x4 92
+<!-- x4 92 -->
 
 ## [Tutorial 5. JHA -- TERE TERE KHETA TAKHA TERE KHETA](https://youtu.be/nh6Xgn_sqGM)
 
-> [Mantra ](https://youtu.be/nh6Xgn_sqGM?t=0m06s)
+> [Mantra](https://youtu.be/nh6Xgn_sqGM?t=0m06s)
 JHA -- TERE TERE KHETA TAKHA TERE KHETA
 TA -- TERE TERE KHETA TAKHA TERE KHETA
 <!-- x4 150 -->
@@ -162,7 +162,7 @@ JHA JHA JHA JHA TERE TERE TERE TERE
 KHETATAKHA TEREKHETA TEREKHETA TEREKHETA
 TA TA TA TA TERE TERE TERE TERE
 KHETATAKHA TEREKHETA TEREKHETA TEREKHETA
-x4 156
+<!-- x4 156 -->
 
 ## [Tutorial 6. JHA TERETERE KHETA TAKHA Part 2. OFFBEATS](https://youtu.be/VGKxGwXzDvU)
 
@@ -221,8 +221,8 @@ TA TERE KHETA TA TERE KHETA
 ## [Tutorial 7. DA GURU GURU. HATUTI](https://youtu.be/GgI4MSkN8rg)
 
 > [Mantra](https://youtu.be/GgI4MSkN8rg?t=0m16s)
-JHA GHIT TE TEE GHE NA
-JHA GHIT TE TEE GHE NA
+JHA GHI TE TEE GHE NA
+JHA GHI TE TEE GHE NA
 JHA GHE NA
 <!-- x4 152 -->
 
@@ -259,7 +259,7 @@ KHE NE NE RE GE NE DA
 > [3.]()
 GHER GEDA
 KHER GEDA
-x4 156
+<!-- x4 156 -->
 
 > [4.](https://youtu.be/nTq_l1GA6lg?t=3m00s)
 GHER GEDA GURU GURU DA GURU
@@ -530,8 +530,8 @@ KHETA KHETA JHA * 3
 KHI GURUGURU JHA * 3
 
 > [16 beat Das Pahir](https://youtu.be/ZtJ_wJxQldk?t=7m26s)
-JHE NA TA -
-URUURUTE TE TA -
+JHE NA TA --
+URUURUTE TE TA --
 KHI URUURU DA KHI
 NE DA GHE DA
 
