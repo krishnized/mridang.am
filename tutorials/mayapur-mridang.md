@@ -145,22 +145,22 @@ x4 92
 ## [Tutorial 5. Jha -- Tere Tere Kheta Takha Tere Kheta & Variation](https://youtu.be/nh6Xgn_sqGM)
 
 > [Mantra ](https://youtu.be/nh6Xgn_sqGM?t=0m06s)
-Jha -- Tere Tere Kheta Takha Tere Kheta
-Ta  -- Tere Tere Kheta Takha Tere Kheta
+JHA -- TERE TERE KHETA TAKHA TERE KHETA
+TA  -- TERE TERE KHETA TAKHA TERE KHETA
 <!-- x4 150 -->
 
 > [Vistar 1](https://youtu.be/nh6Xgn_sqGM?t=1m46s)
-Jha   --   Tere Tere Kheta Takha Tere Kheta
-Tere Kheta Tere Tere Kheta Takha Tere Kheta
-Ta    --   Tere Tere Kheta Takha Tere Kheta
-Tere Kheta Tere Tere Kheta Takha Tere Kheta
+JHA   --   TERE TERE KHETA TAKHA TERE KHETA
+TERE KHETA TERE TERE KHETA TAKHA TERE KHETA
+TA    --   TERE TERE KHETA TAKHA TERE KHETA
+TERE KHETA TERE TERE KHETA TAKHA TERE KHETA
 <!-- x4 155 -->
 
 > [Vistar 2](https://youtu.be/nh6Xgn_sqGM?t=2m48s)
-Jha Jha Jha Jha Tere Tere Tere Tere
-KhetaTakha TereKheta TereKheta TereKheta
-Ta Ta Ta Ta Tere Tere Tere Tere
-KhetaTakha TereKheta TereKheta TereKheta
+JHA JHA JHA JHA TERE TERE TERE TERE
+KHETATAKHA TEREKHETA TEREKHETA TEREKHETA
+TA TA TA TA TERE TERE TERE TERE
+KHETATAKHA TEREKHETA TEREKHETA TEREKHETA
 x4 156
 
 ## [Tutorial 6. JHA TERETERE KHETA TAKHA Part 2. OFFBEATS](https://youtu.be/VGKxGwXzDvU)
@@ -226,69 +226,69 @@ JHA GHE NA
 <!-- x4 152 -->
 
 > Fast speed
-Da Guru Guru
-Da Guru Guru
-Da Guru
+DA GURU GURU
+DA GURU GURU
+DA GURU
 
 ## [Tutorial 8. Da Guru Gurur & Variation](https://youtu.be/nTq_l1GA6lg)
 
 > 1.
-Dad Dhei ta guru guru da guru
-Da guru guru da guru guru da guru
-Dad Dhei ta guru guru da guru
-Da guru guru da guru guru da guru
-Dad Dhei ta guru guru da guru
-Da guru guru da guru guru da guru
-Dad Dhei ta guru guru da guru
-Dad Dhei ta guru guru da guru
-Dad Dhei ta guru guru da guru
-Da guru guru da guru guru da guru
-Dad Dhei ta
-Dad Dhei ta
-Dad Dhei ta
-Guru guru da guru
-Da Guru guru da
-guru guru da guru
+DAD DHEI TA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+DAD DHEI TA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+DAD DHEI TA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+DAD DHEI TA GURU GURU DA GURU
+DAD DHEI TA GURU GURU DA GURU
+DAD DHEI TA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+DAD DHEI TA
+DAD DHEI TA
+DAD DHEI TA
+GURU GURU DA GURU
+DA GURU GURU DA
+GURU GURU DA GURU
 <!-- x4 143 -->
 
 > [2.](https://youtu.be/nTq_l1GA6lg?t=2m22s)
-Ghe Ne Ne Re Ge Ne Da
-Khe Ne Ne Re Ge Ne Da
+GHE NE NE RE GE NE DA
+KHE NE NE RE GE NE DA
 
 > [3.]()
-Gher Geda
-Kher Geda
+GHER GEDA
+KHER GEDA
 x4 156
 
 > [4.](https://youtu.be/nTq_l1GA6lg?t=3m00s)
-Gher Geda guru guru da guru
-Da guru guru da guru guru da guru
-Gher Geda guru guru da guru
-Da guru guru da guru guru da guru
-Gher Geda guru guru da guru
-Da guru guru da guru guru da guru\
-Gher Geda guru guru da guru
-Gher Geda guru guru da guru
-Gher Geda guru guru da guru
-Da guru guru da guru guru da guru\
-Gher Geda Gher Geda
-Gher Geda Guru guru da guru
-Da Guru guru da guru guru da guru
+GHER GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+GHER GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+GHER GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU\
+GHER GEDA GURU GURU DA GURU
+GHER GEDA GURU GURU DA GURU
+GHER GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU\
+GHER GEDA GHER GEDA
+GHER GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
 
 > [5.](https://youtu.be/nTq_l1GA6lg?t=3m48s)
-Kher Geda guru guru da guru
-Da guru guru da guru guru da guru
-Kher  Geda guru guru da guru
-Da guru guru da guru guru da guru
-Kher  Geda guru guru da guru
-Da guru guru da guru guru da guru\
-Kher  Geda guru guru da guru
-Kher  Geda guru guru da guru
-Kher  Geda guru guru da guru
-Da guru guru da guru guru da guru\
-Kher  Geda Kher  Geda
-Kher  Geda Guru guru da guru
-Da Guru guru da guru guru da guru
+KHER GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+KHER  GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
+KHER  GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU\
+KHER  GEDA GURU GURU DA GURU
+KHER  GEDA GURU GURU DA GURU
+KHER  GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU\
+KHER  GEDA KHER  GEDA
+KHER  GEDA GURU GURU DA GURU
+DA GURU GURU DA GURU GURU DA GURU
 
 > [6. TIHAI](https://youtu.be/nTq_l1GA6lg?t=4m10s)
 GURU GURU DAD DHIN
@@ -360,60 +360,60 @@ DERE GEDA DERE GEDA
 ## [Tutorial 13. 32 beats hatuti | DERE GERE DERE GERE](https://youtu.be/_j-OMccuO_g)
 
 > [Hatuti mantra](https://youtu.be/_j-OMccuO_g?t=9)
-DereGere DereGere
-GheneNere GheneNaw TereKheta
-GheneNere GheneNaw TereKheta
-GheneNere GhenaGhene NereGhena
-GheneNere GheneNaw TereKheta
-TikhiTakhi TereKheta
-TereKheta TereKheta
-KheneNere KheneNaw TereKheta
-KheneNere KheneNaw TereKheta
-KheneNere KhenaKhene NereKhena
-KheneNere KheneNaw TereKheta
-NingTakha TereKheta
+DEREGERE DEREGERE
+GHENENERE GHENENAW TEREKHETA
+GHENENERE GHENENAW TEREKHETA
+GHENENERE GHENAGHENE NEREGHENA
+GHENENERE GHENENAW TEREKHETA
+TIKHITAKHI TEREKHETA
+TEREKHETA TEREKHETA
+KHENENERE KHENENAW TEREKHETA
+KHENENERE KHENENAW TEREKHETA
+KHENENERE KHENAKHENE NEREKHENA
+KHENENERE KHENENAW TEREKHETA
+NINGTAKHA TEREKHETA
 <!-- x4 130 -->
 
 ## [Tutorial 14. 16 Beats Hatuti | Long Tehai | Ghenaw Tinita Kheta](https://youtu.be/B3H2uD09vS0)
 
 > [Hatuti mantra](https://youtu.be/B3H2uD09vS0?t=15)
-Ghenaw TinitaKheta
-DaghiTereTere KhetaTakhaTereKheta
-Tenaw TinitaKheta
-TakhiTereTere KhetaTakhaTereKheta
-DadDhinTereTere KhetaTakhaTereKheta
-TereKhetaTereTere KhetaTakhaTereKheta
-TereTereKhetaTak JhaTereTere
-KhetaTakJha TeretereKhetaTak
+GHENAW TINITAKHETA
+DAGHITERETERE KHETATAKHATEREKHETA
+TENAW TINITAKHETA
+TAKHITERETERE KHETATAKHATEREKHETA
+DADDHINTERETERE KHETATAKHATEREKHETA
+TEREKHETATERETERE KHETATAKHATEREKHETA
+TERETEREKHETATAK JHATERETERE
+KHETATAKJHA TERETEREKHETATAK
 <!-- x155 -->
 
 ## [Tutorial 15. 32 Beats Hatuti and Long Tehai | Dhere Kete Dhere Kete](https://youtu.be/z1L0SrIGCSY)
 
 > [Hatuti mantra](https://youtu.be/z1L0SrIGCSY?t=32)
-DhereKete DhereKete DhatDhat DhereKete
-DhereKete DhereKete DhatDhat DhereKete
-DhatDhere KeteDhat DhereKete DhereKete
-DhatDhere KeteDhat DhereKete DhereKete
-KataKata GadiGhini TeTeeKata GadiGhini Jha
-KataKata GadiGhini TeTeeKata GadiGhini Jha
-KataKata GadiGhini TeTeeKata GadiGhini
+DHEREKETE DHEREKETE DHATDHAT DHEREKETE
+DHEREKETE DHEREKETE DHATDHAT DHEREKETE
+DHATDHERE KETEDHAT DHEREKETE DHEREKETE
+DHATDHERE KETEDHAT DHEREKETE DHEREKETE
+KATAKATA GADIGHINI TETEEKATA GADIGHINI JHA
+KATAKATA GADIGHINI TETEEKATA GADIGHINI JHA
+KATAKATA GADIGHINI TETEEKATA GADIGHINI
 <!-- x4 112 -->
 
 ## [Tutorial 16. 28 Beats | DaGuruGuru DaGuruGuru GheNeNere Ghene Naw](https://youtu.be/34AVd3a2RV4)
 
 > [Hatuti Mantra](https://youtu.be/34AVd3a2RV4?t=24)
-DaGuru GuruDa GuruGuru GheneNere
-GheneNaw TereKheta
-NingTak TereKheta
-DhereTere TereTere
-TereTere TereTere
-KhetaTakha TereKheta
-NingTakha TereKheta
-DereGeda GheneNere
-GhenaNaw TereKheta
-NingTak TereKheta
-GheneNere GhenaNaw TereKheta
-GheneNere GhenaNaw TereKheta
+DAGURU GURUDA GURUGURU GHENENERE
+GHENENAW TEREKHETA
+NINGTAK TEREKHETA
+DHERETERE TERETERE
+TERETERE TERETERE
+KHETATAKHA TEREKHETA
+NINGTAKHA TEREKHETA
+DEREGEDA GHENENERE
+GHENANAW TEREKHETA
+NINGTAK TEREKHETA
+GHENENERE GHENANAW TEREKHETA
+GHENENERE GHENANAW TEREKHETA
 <!-- x4 130 -->
 
 ## [Tutorial 17. HATUTI 20 Beats | JHAJ JHENA KHETA GI GHI NA KHETA](https://youtu.be/lmT2CZFbI7Y)
@@ -434,57 +434,57 @@ TA THEI TA THEI   TA
 ## [Tutorial 18. Dhene Dhene Nak Dhene | Hatuti 24 Beats](https://youtu.be/kEJGIiopWXs)
 
 > [Mantra](https://youtu.be/kEJGIiopWXs?t=11)
-Dhene Dhene Nak Dhene
-Dhene Nak Dhene Dhene
-Thaat Daghi Nak Dhene
-Dhene Nak Dhene Dhene
-Dhereti Dheina Kheta
-Daghi TereTere Kheta TaKhi TereKheta
-Dreged Tere Tere Kheta TaKhi Tere Kheta
-Dreged  Dreged
-Dreged Tere Tere Kheta TaKhi Tere Kheta
-Kheta Daghi Nata Kheta
-Ning Tak Tere Kheta
-Gher Ghena Gi Ghi Nak
+DHENE DHENE NAK DHENE
+DHENE NAK DHENE DHENE
+THAAT DAGHI NAK DHENE
+DHENE NAK DHENE DHENE
+DHERETI DHEINA KHETA
+DAGHI TERETERE KHETA TAKHI TEREKHETA
+DREGED TERE TERE KHETA TAKHI TERE KHETA
+DREGED  DREGED
+DREGED TERE TERE KHETA TAKHI TERE KHETA
+KHETA DAGHI NATA KHETA
+NING TAK TERE KHETA
+GHER GHENA GI GHI NAK
 <!-- x4 108 -->
 
 ## [Tutorial 19. Dhene Dhene Nak Dhene | 16 beats | Bimala Chaitanya Das](https://youtu.be/B6YXBfY95zM)
 
 > [Mantra](https://youtu.be/B6YXBfY95zM?t=22)
-Dhene Dhene Nak Dhene
-Dhene Nak Dhene Dhene
-Dad Dhin Tere Tere Kheta Takha Tere Kheta
-Tere Kheta Tere Tere Kheta Takha Tere Kheta
-Khene nere nere khena
-Khene nere nere khena
-Khene nere khena
-Khene nere khena
-Nere khena
-Tere Kheta ga dhi ghi ni dheiya
-Tere Kheta ga dhi ghi ni dheiya
-Tere Kheta ga dhi ghi ni dheiya
+DHENE DHENE NAK DHENE
+DHENE NAK DHENE DHENE
+DAD DHIN TERE TERE KHETA TAKHA TERE KHETA
+TERE KHETA TERE TERE KHETA TAKHA TERE KHETA
+KHENE NERE NERE KHENA
+KHENE NERE NERE KHENA
+KHENE NERE KHENA
+KHENE NERE KHENA
+NERE KHENA
+TERE KHETA GA DHI GHI NI DHEIYA
+TERE KHETA GA DHI GHI NI DHEIYA
+TERE KHETA GA DHI GHI NI DHEIYA
 <!-- x4 140 -->
 
 ## [Tutorial 20. Hatuti | Long Tehai](https://youtu.be/X3IM4bG_d0g)
 
 > [Hatuti](https://youtu.be/X3IM4bG_d0g?t=24)
-Kat Ta Ghenere Katak Ghenere
-Kot TeTee TeTee Katak Ghenere
-Ge Ghe TeTee TeTee Katak Ghenere
-Kata Thun Thun Trekhen Naw
-Khe Khe TeTee Khe Khe TeTee Khe Khe TeTee
-Khi GurGur Daad Daad Jha
-Khi GurGur Daad Daad Jha
-Khi GurGur Daad Daad
+KAT TA GHENERE KATAK GHENERE
+KOT TETEE TETEE KATAK GHENERE
+GE GHE TETEE TETEE KATAK GHENERE
+KATA THUN THUN TREKHEN NAW
+KHE KHE TETEE KHE KHE TETEE KHE KHE TETEE
+KHI GURGUR DAAD DAAD JHA
+KHI GURGUR DAAD DAAD JHA
+KHI GURGUR DAAD DAAD
 
 > [Tehais](https://youtu.be/X3IM4bG_d0g?t=2m36s)
-Kat Ta Ghenere Katak Ghenere
-Kot TeTee TeTee Katak Ghenere
-Kat Ta Ghenere Katak Ghenere
-Kot TeTee TeTee Katak Ghenere
-Gherke Daghini Tak Dhena Kheta Jha Kot
-Gherke Daghini Tak Dhena Kheta Jha Kot
-Gherke Daghini Tak Dhena Kheta
+KAT TA GHENERE KATAK GHENERE
+KOT TETEE TETEE KATAK GHENERE
+KAT TA GHENERE KATAK GHENERE
+KOT TETEE TETEE KATAK GHENERE
+GHERKE DAGHINI TAK DHENA KHETA JHA KOT
+GHERKE DAGHINI TAK DHENA KHETA JHA KOT
+GHERKE DAGHINI TAK DHENA KHETA
 
 ## [Tutorial 21. Dho Kheta Nag Dhini Nag Dhini Dheiya](https://youtu.be/mjz21SaKO2M)
 
@@ -520,101 +520,101 @@ TA KHIK KHI NAG DHENE NAG DHENE NAG DHENE
 DHEI TA TA — TE TEE TE TEE TA
 
 > [Tehai 1](https://youtu.be/ZtJ_wJxQldk?t=6m40s)
-Tere kheta jah * 3
+TERE KHETA JAH * 3
 
 > [Tehai 2](https://youtu.be/ZtJ_wJxQldk?t=7m03s)
-Kheta kheta Jha * 3
+KHETA KHETA JHA * 3
 
 > [Tehai 3](https://youtu.be/ZtJ_wJxQldk?t=7m09s)
-Khi guruguru Jha * 3
+KHI GURUGURU JHA * 3
 
 > [16 beat Das Pahir](https://youtu.be/ZtJ_wJxQldk?t=7m26s)
-Jhe Na Ta -
-UruUruTe Te Ta -
-Khi UruUru Da Khi
-Ne Da Ghe Da
+JHE NA TA -
+URUURUTE TE TA -
+KHI URUURU DA KHI
+NE DA GHE DA
 
 ## [Tutorial 23. Lofa Taal. 12 Beats. ](https://youtu.be/e2Cxbnp6uSM)
 
 > [Mantra](https://youtu.be/e2Cxbnp6uSM?t=0m48s)
-Dha Dhene Dhene DaDa DhiNa
-Tak TeTee TeTee TaTa KhiKhi Ta
+DHA DHENE DHENE DADA DHINA
+TAK TETEE TETEE TATA KHIKHI TA
 
 > [Hatuti](https://youtu.be/e2Cxbnp6uSM?t=1m38s)
-Ghi Na Na
+GHI NA NA
 
 > [Variation 1](https://youtu.be/e2Cxbnp6uSM?t=5m00s)
-Dha DiDiDiDi DaDa DhiNa
-Tak TeTee TeTee TaTa KhiKhi Ta
+DHA DIDIDIDI DADA DHINA
+TAK TETEE TETEE TATA KHIKHI TA
 
 > [Variation 2](https://youtu.be/e2Cxbnp6uSM?t=5m44s)
-Dha DheNe DheNe DaDa DhiNa
-Tak TeTee TeTee Dha TeReKeTe Ta TeReKeTe
+DHA DHENE DHENE DADA DHINA
+TAK TETEE TETEE DHA TEREKETE TA TEREKETE
 
 > [Variation 3](https://youtu.be/e2Cxbnp6uSM?t=6m21s)
-Dha DheNe DheNe DaDa DhiNa
-Tak TeTee TeTee Dha TeTee TeTee Nak TeTee TeTee
+DHA DHENE DHENE DADA DHINA
+TAK TETEE TETEE DHA TETEE TETEE NAK TETEE TETEE
 
 > [Tehais](https://youtu.be/e2Cxbnp6uSM?t=7m02s)
-Dha Terekete Ta Terekete
-Dhinak Dhinak
+DHA TEREKETE TA TEREKETE
+DHINAK DHINAK
 
 ## [Tutorial 24. Jha Treke Jhini Jhini | Jamali Patch | 28 Beats](https://youtu.be/jYxbHQwWjFw)
 
 > [Mantra](https://youtu.be/jYxbHQwWjFw?t=41)
-Jha Treke Jhini Jhini
-JaJhi Treke Jhini Jhini
-Ja jhi treke jhini
-Ja jhi treke jhini
-Ja jhi treke
-Jha tere tere kheta taka tere kheta
-Dhei yat tinita kheta
-Tini Tini Treke Tini
-[Tretatti Jha
-Tretatti Jha
-Tretatti guru guru] * 3
+JHA TREKE JHINI JHINI
+JAJHI TREKE JHINI JHINI
+JA JHI TREKE JHINI
+JA JHI TREKE JHINI
+JA JHI TREKE
+JHA TERE TERE KHETA TAKA TERE KHETA
+DHEI YAT TINITA KHETA
+TINI TINI TREKE TINI
+[TRETATTI JHA
+TRETATTI JHA
+TRETATTI GURU GURU] * 3
 
 ## [Tutorial 25. Gredhen Takheta Taklanta | Long Tehai | 16 Beats](https://youtu.be/WRSwcMCvKpQ)
 
 > [Mantra](https://youtu.be/WRSwcMCvKpQ?t=41)
-Gredhen Takheta Taklanta khetak Daghena
-Gredhen Ta Khetak Daghena
-Gredhen Ta
-Gredhen Gredhen Gredhen Ta
-Gredhen Takheta Tak Tak Tak Jha kat
-Gredhen Takheta Tak Tak Tak Jha kat
-Gredhen Takheta Tak Tak Tak
+GREDHEN TAKHETA TAKLANTA KHETAK DAGHENA
+GREDHEN TA KHETAK DAGHENA
+GREDHEN TA
+GREDHEN GREDHEN GREDHEN TA
+GREDHEN TAKHETA TAK TAK TAK JHA KAT
+GREDHEN TAKHETA TAK TAK TAK JHA KAT
+GREDHEN TAKHETA TAK TAK TAK
 
 ## [Tutorial 26. Dheiya Dheiya | Hatuti | 30 beats](https://youtu.be/BPZ4Ok3TzGM)
 
 > [Hatuti Mantra](https://youtu.be/BPZ4Ok3TzGM?t=50)
-Dheiya Dheiya Tat Tat Dheiya
-Ta Dheiya Ta Dheiya Ta Dheiya Ta
-Theiya Theiya Tat Tat Theiya
-Ta Theiya Ta Theiya Ta Theiya Ta
-Dere Dere Gehna Nag
-Dad Da Gadi Ghini
-Gadi Ghini Jha
-Gadi Ghini Jha
-Gadi Ghini Jha
-Aa
-Taat Taat Jha
-Taat Taat Jha
-Taat Taat
+DHEIYA DHEIYA TAT TAT DHEIYA
+TA DHEIYA TA DHEIYA TA DHEIYA TA
+THEIYA THEIYA TAT TAT THEIYA
+TA THEIYA TA THEIYA TA THEIYA TA
+DERE DERE GEHNA NAG
+DAD DA GADI GHINI
+GADI GHINI JHA
+GADI GHINI JHA
+GADI GHINI JHA
+AA
+TAAT TAAT JHA
+TAAT TAAT JHA
+TAAT TAAT
 
 ## [Tutorial 27. GHENENE GHENENE | 32 Beats Hatuti | Long Tehai](https://youtu.be/ms-Bgqi6KNQ)
 
 > [Hatuti 32 Beats](https://youtu.be/ms-Bgqi6KNQ?t=1m08s)
-Ghenene Ghenene Teteetee Ghenene
-Tetee Ghena Tetee Ghena Tetee Ghena
-Khenene khenene Teteetee Khenene
-Tetee Khena Tetee Khena Tetee Khena
-Khene Nere Khena Khene Nere Khena
-Takha Tere Kheta Khene Nere Khena Jha Kaat
-Khene Nere Khena Khene Nere Khena
-Takha Tere Kheta Khene Nere Khena Jha Kaat
-Khene Nere Khena Khene Nere Khena
-Takha Tere Kheta Khene Nere Khena
+GHENENE GHENENE TETEETEE GHENENE
+TETEE GHENA TETEE GHENA TETEE GHENA
+KHENENE KHENENE TETEETEE KHENENE
+TETEE KHENA TETEE KHENA TETEE KHENA
+KHENE NERE KHENA KHENE NERE KHENA
+TAKHA TERE KHETA KHENE NERE KHENA JHA KAAT
+KHENE NERE KHENA KHENE NERE KHENA
+TAKHA TERE KHETA KHENE NERE KHENA JHA KAAT
+KHENE NERE KHENA KHENE NERE KHENA
+TAKHA TERE KHETA KHENE NERE KHENA
 
 ## [Tutorial 28. JA JA JA JHEI | 32 Beats Hatuti | long tehai](https://youtu.be/ygziMWXmh8w)
 
