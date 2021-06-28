@@ -75,6 +75,18 @@
           // Add ids to headers
           // h2s.forEach(h2 => h2.id = h2.textContent.split('.')[0].toLowerCase().replace(' ','-'))
 
+          // Wrap into sections
+          h2s.forEach(h2 => {
+            const sectionEl = document.createElement('section')
+            sectionEl.id = h2.id
+            h2.removeAttribute('id')
+            h2.replaceWith(sectionEl)
+            sectionEl.appendChild(h2)
+            while (sectionEl?.nextElementSibling && sectionEl?.nextElementSibling?.tagName !== 'H2') sectionEl.appendChild(sectionEl?.nextElementSibling)
+          })
+          const sections = document.querySelectorAll('section')
+
+
           // TOC: collect all headers, place into TOC div
           const tocEl = mainEl.appendChild(toc())
           function toc () {
@@ -83,16 +95,19 @@
 
             document.head.appendChild(document.createElement('style')).innerHTML = `
               .toc {
-                position: fixed; top: 1rem; right: 1rem;
+                position: fixed; top: 0; right: 1rem; bottom: 0;
                 display: flex; flex-direction: column;
-                width: 17.28rem;
+                max-width: 17.28rem;
                 font-size: small;
               }
-              .toc a {
+              .toc a {/*
                 text-overflow: ellipsis;
-                white-space: nowrap;
                 overflow: hidden;
-                display: block;
+                display: block;*/
+                margin-top: 0rem;
+                white-space: nowrap;
+                right: 0;
+                position: absolute;
               }
               .toc a.in-view {
                 font-weight: bolder;
@@ -101,9 +116,12 @@
 
             tocEl.append(...h2s.map(h2 => {
               let a = document.createElement('a')
-              a.textContent = h2.textContent
-              a.href=`#${h2.id}`
+              a.textContent = h2.textContent.split('.')[0].split(' ')[1]
+              a.href=`#${h2.parentNode.id}`
               a.title = h2.textContent
+              Object.assign(a.style, {
+                top: `${100*h2.parentNode.offsetTop/document.body.scrollHeight}vh`
+              })
               return a
             }))
             return tocEl
@@ -120,7 +138,7 @@
                 }
               });
             });
-          h2s.forEach((h2) => observer.observe(h2));
+          sections.forEach((section) => observer.observe(section));
 
 
           // camelcasify mantras
