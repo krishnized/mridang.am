@@ -91,10 +91,15 @@ body {
   font-weight: bolder;
 }
 
-
+details summary {
+  margin-left: -2ex;
+}
 details summary h2 {
   display: inline;
   margin: 0;
+}
+details[open] summary {
+  margin-bottom: 1rem;
 }
 
 blockquote p {
