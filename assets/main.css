@@ -72,11 +72,64 @@ body {
 
 
 
+.toc {
+  position: fixed; top: 0; right: 1rem; bottom: 0;
+  display: flex; flex-direction: column;
+  max-width: 17.28rem;
+  font-size: small;
+}
+.toc a {/*
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;*/
+  margin-top: 0rem;
+  white-space: nowrap;
+  right: 0;
+  position: absolute;
+}
+.toc a.in-view {
+  font-weight: bolder;
+}
+
+
+details summary h2 {
+  display: inline;
+  margin: 0;
+}
+
 blockquote p {
   margin: 0;
-  white-space: pre;
 }
 blockquote{
+  white-space: pre;
   padding-top: 0;
   padding-bottom: 0;
+  line-height: 2;
+}
+blockquote a {
+  display: block;
+}
+a + blockquote {
+  margin-top: .5rem;
+}
+blockquote ruby {
+  ruby-position: under;
+  white-space: pre;
+}
+blockquote ruby rt {
+  font-style: normal;
+}
+
+
+/* bols */
+blockquote i {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+}
+blockquote i:after {
+  content: attr(data-sym);
+  font-size: .75em;
+  margin-top: -.75em;
 }
