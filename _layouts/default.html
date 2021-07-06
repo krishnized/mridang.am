@@ -81,7 +81,8 @@
             sectionEl.id = h2.id
             h2.removeAttribute('id')
             h2.replaceWith(sectionEl)
-            sectionEl.appendChild(document.createElement('summary')).appendChild(h2)
+            let summary
+            sectionEl.appendChild(summary = document.createElement('summary')).appendChild(h2)
             while (sectionEl?.nextElementSibling && sectionEl?.nextElementSibling?.tagName !== 'H2') {
               const bq = sectionEl?.nextElementSibling
               if (bq.tagName === 'BLOCKQUOTE') {
@@ -90,33 +91,39 @@
               }
               sectionEl.appendChild(bq)
             }
+            // NOTE: don't update sections to keep even spread of titles
+            // summary.addEventListener('click', e => requestAnimationFrame(toc))
           })
           const sections = document.querySelectorAll('details')
 
           // TOC: collect all headers, place into TOC div
-          const tocEl = mainEl.appendChild(toc())
+          let tocEl = document.createElement('nav')
+          tocEl.className = 'toc'
+          mainEl.appendChild(tocEl)
+          tocEl.append(...h2s.map(h2 => {
+            let a = document.createElement('a')
+            a.textContent = h2.textContent.split('.')[0].split(' ')[1]
+            a.href=`#${h2.closest('details').id}`
+            a.title = h2.textContent
+            return a
+          }))
+          toc()
+          // update toc position
           function toc () {
-            let tocEl = document.createElement('nav')
-            tocEl.className = 'toc'
-
-            tocEl.append(...h2s.map(h2 => {
-              let a = document.createElement('a')
-              a.textContent = h2.textContent.split('.')[0].split(' ')[1]
-              a.href=`#${h2.closest('details').id}`
-              a.title = h2.textContent
+            [...tocEl.childNodes].forEach((a,i) => {
+              // const target = document.querySelector(a.hash)
+              const target = h2s[i]
               Object.assign(a.style, {
-                top: `${100*h2.parentNode.offsetTop/document.body.scrollHeight}vh`
+                top: `${100*target.parentNode.offsetTop/document.body.scrollHeight}vh`
               })
-              return a
-            }))
-            return tocEl
+            })
           }
 
           // highlight in-view title
           const observer = new IntersectionObserver(entries => {
               entries.forEach(entry => {
                 const id = entry.target.id;
-                if (entry.intersectionRatio > 0) {
+                if (entry.isIntersecting) {
                   tocEl.querySelector(`[href="#${id}"]`).classList.add('in-view');
                 } else {
                   tocEl.querySelector(`[href="#${id}"]`).classList.remove('in-view');

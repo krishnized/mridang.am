@@ -86,6 +86,7 @@ body {
   white-space: nowrap;
   right: 0;
   position: absolute;
+  /*text-shadow: 0 0 4px white;*/
 }
 .toc a.in-view {
   font-weight: bolder;
