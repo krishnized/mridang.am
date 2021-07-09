@@ -111,6 +111,7 @@ blockquote{
   padding-top: 0;
   padding-bottom: 0;
   line-height: 2;
+  font-size: larger;
 }
 blockquote a {
   display: block;
@@ -121,9 +122,6 @@ a + blockquote {
 blockquote ruby {
   ruby-position: under;
   white-space: pre;
-}
-blockquote ruby rt {
-  font-style: normal;
 }
 
 
@@ -136,6 +134,7 @@ blockquote i {
 }
 blockquote i:after {
   content: attr(data-sym);
-  font-size: .75em;
+  font-size: x-small;
   margin-top: -.75em;
+  font-style: normal;
 }
