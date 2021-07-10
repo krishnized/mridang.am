@@ -107,7 +107,7 @@ blockquote p {
   margin: 0;
 }
 blockquote{
-  /*white-space: pre;*/
+  white-space: pre;
   padding-top: 0;
   padding-bottom: 0;
   line-height: 2;
