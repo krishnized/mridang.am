@@ -81,16 +81,17 @@
             // const sectionEl = h`<details class=section id=${h2.id}>
             //   <summary class="title"><h2>${h2.textContent}</h2></summary>
             // </details>`
-            const sectionEl = h`<section id=${h2.id}><h2 class="title">${h2.textContent}</h2></section>`
+            const sectionEl = h`<section id=${h2.id}><h2 class="title anchored">${h2.textContent}</h2></section>`
             while (h2?.nextElementSibling) {
               const bq = h2?.nextElementSibling
               if (bq.tagName === 'H2') break;
               if (bq.tagName === 'BLOCKQUOTE') {
                 const quoteHref = bq.querySelector('a')
                 quoteHref?.remove()
+                bq.className = 'mantra'
                 const quoteTitle = h`<span class="subtitle">${quoteHref?.textContent || ''}</span>`
                 sectionEl.append(quoteTitle)
-                bq.textContent = bq.textContent.trim();
+                bq.innerHTML = `<p>${bq.textContent.trim()}</p>`
               }
               sectionEl.appendChild(bq)
             }
@@ -125,14 +126,20 @@
 
 
           // CamelCase mantras, add visual helpers
-          $('blockquote', el => {
+          $('.mantra', el => {
             let str = el.innerHTML
             for (let key in dict) {
               str = str.replaceAll(
-                key, `<i data-sym="${symbols[key] || ''}">${dict[key]}</i>`
+                key, `<i class=bol data-sym="${symbols[key] || ''}">${dict[key]}</i>`
               )
             }
             el.innerHTML = str
+          })
+
+          // display anchor
+          $('.anchored', el => {
+            let a = h`<a.anchor href='#${el.closest('[id]')?.id}'>#</a>`
+            el.prepend(a)
           })
         </script>
       </main>
