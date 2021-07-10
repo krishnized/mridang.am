@@ -78,9 +78,10 @@
 
           // Wrap  h2s into sections
           $('main > h2', h2 => {
-            const sectionEl = h`<details id=${h2.id}>
-              <summary><h2>${h2.textContent}</h2></summary>
+            const sectionEl = h`<details class=section id=${h2.id}>
+              <summary class="title"><h2>${h2.textContent}</h2></summary>
             </details>`
+            // const sectionEl =
             while (h2?.nextElementSibling) {
               const bq = h2?.nextElementSibling
               if (bq.tagName === 'H2') break;
@@ -97,7 +98,7 @@
           })
 
           $('main > details', sectionEl => {
-            const title = sectionEl.querySelector('summary').textContent
+            const title = sectionEl.querySelector('.title').textContent
             // // NOTE: don't update sections to keep even spread of titles
             // // summary.addEventListener('click', e => requestAnimationFrame(toc))
 
