@@ -61,66 +61,57 @@
 
       <main>
         <header>
-          <!-- <h1>
-            Mayapur Mridanga Tutorial 1. {{ page.title }}
-            <a href="" class="next">→ 2.</a>
-          </h1> -->
+          <h1>
+            {{ page.title }}
+            <br/><em><small>by {{ page.author }}</small></em>
+            <!-- <a href="" class="next">→ 2.</a> -->
+          </h1>
         </header>
         {{ content }}
         <script type="module">
-          const mainEl = document.querySelector('main')
-          const h2s = [...mainEl.querySelectorAll('h2')]
-          const mantraEls = mainEl.querySelectorAll('blockquote')
+          import {$, h} from './assets/lib/spect.js'
+          import {dict, symbols} from './assets/dict.js'
 
-          // Add ids to headers
-          // h2s.forEach(h2 => h2.id = h2.textContent.split('.')[0].toLowerCase().replace(' ','-'))
+          // TOC: collect all headers, place into TOC div
+          let tocEl = h`<nav class="toc"></nav>`
+          document.querySelector('.content').appendChild(tocEl)
 
-          // Wrap into sections
-          h2s.forEach(h2 => {
-            const sectionEl = document.createElement('details')
-            sectionEl.id = h2.id
-            h2.removeAttribute('id')
-            h2.replaceWith(sectionEl)
-            let summary
-            sectionEl.appendChild(summary = document.createElement('summary')).appendChild(h2)
-            while (sectionEl?.nextElementSibling && sectionEl?.nextElementSibling?.tagName !== 'H2') {
-              const bq = sectionEl?.nextElementSibling
+          // Wrap  h2s into sections
+          $('main > h2', h2 => {
+            const sectionEl = h`<details id=${h2.id}>
+              <summary><h2>${h2.textContent}</h2></summary>
+            </details>`
+            while (h2?.nextElementSibling) {
+              const bq = h2?.nextElementSibling
+              if (bq.tagName === 'H2') break;
               if (bq.tagName === 'BLOCKQUOTE') {
-                sectionEl.append(bq.querySelector('a') || '')
+                const quoteHref = bq.querySelector('a')
+                quoteHref?.remove()
+                const quoteTitle = h`<span class="subtitle">${quoteHref?.textContent || ''}</span>`
+                sectionEl.append(quoteTitle)
                 bq.textContent = bq.textContent.trim();
               }
               sectionEl.appendChild(bq)
             }
-            // NOTE: don't update sections to keep even spread of titles
-            // summary.addEventListener('click', e => requestAnimationFrame(toc))
+            h2.replaceWith(sectionEl)
           })
-          const sections = document.querySelectorAll('details')
 
-          // TOC: collect all headers, place into TOC div
-          let tocEl = document.createElement('nav')
-          tocEl.className = 'toc'
-          mainEl.appendChild(tocEl)
-          tocEl.append(...h2s.map(h2 => {
-            let a = document.createElement('a')
-            a.textContent = h2.textContent.split('.')[0].split(' ')[1]
-            a.href=`#${h2.closest('details').id}`
-            a.title = h2.textContent
-            return a
-          }))
-          toc()
-          // update toc position
-          function toc () {
-            [...tocEl.childNodes].forEach((a,i) => {
-              // const target = document.querySelector(a.hash)
-              const target = h2s[i]
-              Object.assign(a.style, {
-                top: `${100*target.parentNode.offsetTop/document.body.scrollHeight}vh`
-              })
-            })
-          }
+          $('main > details', sectionEl => {
+            const title = sectionEl.querySelector('summary').textContent
+            // // NOTE: don't update sections to keep even spread of titles
+            // // summary.addEventListener('click', e => requestAnimationFrame(toc))
 
-          // highlight in-view title
-          const observer = new IntersectionObserver(entries => {
+            let a = h`<a
+              href="#${sectionEl.id}"
+              title=${title}
+              style="top: ${100*sectionEl.offsetTop/document.body.scrollHeight}vh"
+              >
+                ${title.split('.')[0].split(' ')[1]}
+              </a>`
+            tocEl.append(a)
+
+            // highlight in-view title
+            const observer = new IntersectionObserver(entries => {
               entries.forEach(entry => {
                 const id = entry.target.id;
                 if (entry.isIntersecting) {
@@ -130,89 +121,19 @@
                 }
               });
             });
-          sections.forEach((section) => observer.observe(section));
+            observer.observe(sectionEl)
+          })
 
 
-          // camelcasify mantras
-          const dict = {
-            THUN: 'Thun',
-            TATAKHA: 'TaTaKha',
-            TAKHA: 'TaKha',
-            TAKHE: 'TaKhe',
-            TAKHI: 'TaKhi',
-            TAKA: 'TaKa',
-            TAK: 'Tak',
-            TATA: 'TaTa',
-            TAT: 'Tat',
-            TAAT: 'Taat',
-            THAAT: 'Thaat',
-            TA: 'Ta',
-            TEE: 'Tee',
-            TE: 'Te',
-            THEI: 'Thei',
-            THE: 'The',
-            THI: 'Thi',
-            TI: 'Ti',
-            DRE: 'Dre',
-            DAAD: 'Daad',
-            DAD: 'Dad',
-            DHAT: 'Dhat',
-            DHA: 'Dha',
-            DA: 'Da',
-            DHEI: 'Dhei',
-            DHE: 'Dhe',
-            DHO: 'Dho',
-            DHINI: 'Dhini',
-            DHIN: 'Dhin',
-            DHI: 'Dhi',
-            DI: 'Di',
-            DHAT: 'Dhat',
-            DE: 'De',
-            NING: 'Ning',
-            NI: 'Ni',
-            NE: 'Ne',
-            NAG: 'Nag',
-            NAK: 'Nak',
-            NAW: 'Naw',
-            NA: 'Na',
-            KAAT: 'Kaat',
-            KHER: 'Kher',
-            KE: 'Ke',
-            KHE: 'Khe',
-            KA: 'Ka',
-            KO: 'Ko',
-            KHA: 'Kha',
-            KHI: 'Khi',
-            // GED: 'Ged',
-            GHER: 'Gher',
-            GHE: 'Ghe',
-            GHI: 'Ghi',
-            GI: 'Ghi',
-            GA: 'Ga',
-            GE: 'Ge',
-            JA: 'Ja',
-            JHA: 'Jha',
-            JHEI: 'Jhei',
-            JHE: 'Jhe',
-            JHI: 'Jhi',
-            RE: 'Re',
-            GURU: 'GuRu',
-            URU: 'Uru',
-            GUR: 'GuR',
-            YA: 'Ya'
-          }
-          const symbols = {
-            TE: 'l̲l̲l̲l̲',
-            RE: '/',
-            KHE: '●',
-            TA: 'llll'
-          }
-          mantraEls.forEach(el => {
+          // CamelCase mantras, add visual helpers
+          $('blockquote', el => {
+            let str = el.innerHTML
             for (let key in dict) {
-              el.innerHTML = el.innerHTML.replaceAll(
+              str = str.replaceAll(
                 key, `<i data-sym="${symbols[key] || ''}">${dict[key]}</i>`
               )
             }
+            el.innerHTML = str
           })
         </script>
       </main>
