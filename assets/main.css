@@ -133,16 +133,35 @@ blockquote ruby {
 }
 
 
-.anchored {
+.anchorable {
   position: relative;
 }
-.anchored .anchor {
-  opacity: 0;
+.anchorable .anchor {
+  /*opacity: 0;*/
   position: absolute;
   left: -1.5rem;
   padding: 1.5rem;
   margin:  -1.5rem;
 }
-.anchored:hover .anchor {
+.anchorable:hover .anchor {
+  /*opacity: 1;*/
+}
+
+
+.trackable-bpm {
+  position: relative;
+}
+.trackable-bpm input.bpm {
+  opacity: .25;
+  position: absolute;
+  display: inline;
+  background: none;
+  padding:  0;
+  margin:  0;
+  right: -4.5rem;
+  width: 3rem;
+  text-decoration: dotted underline;
+}
+.trackable-bpm:hover input.bpm {
   opacity: 1;
 }
