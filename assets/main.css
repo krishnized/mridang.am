@@ -139,9 +139,9 @@ blockquote ruby {
 .anchorable .anchor {
   /*opacity: 0;*/
   position: absolute;
-  left: -1.5rem;
-  padding: 1.5rem;
-  margin:  -1.5rem;
+  left: -1em;
+  padding: 1em;
+  margin:  -1em;
 }
 .anchorable:hover .anchor {
   /*opacity: 1;*/

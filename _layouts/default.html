@@ -92,7 +92,7 @@
                 const quoteHref = bq.querySelector('a')
                 if (quoteHref) {
                   // const quoteTitle = h`<span class="subtitle trackable-bpm youtube-link" id="">${quoteHref?.textContent || ''}</span>`
-                  sectionEl.append(h`<span data-youtube="${quoteHref.href}" class="subtitle trackable-bpm" id="${h2.id}-${++count}">${quoteHref?.textContent || ''}</span>`)
+                  sectionEl.append(h`<span data-youtube="${quoteHref.href}" class="anchorable subtitle trackable-bpm" id="${h2.id}-${++count}">${quoteHref?.textContent || ''}</span>`)
                   quoteHref?.remove()
                   h`<${bq} class="mantra"><p>${bq.textContent.trim()}</p></>`
                 }
