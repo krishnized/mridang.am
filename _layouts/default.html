@@ -71,6 +71,7 @@
         {{ content }}
         <script type="module">
           import {$, h} from './assets/lib/spect.js'
+          import parseDuration from './assets/lib/parse-duration.js'
           import {dict, symbols} from './assets/dict.js'
 
           // TOC: collect all headers, place into TOC div
@@ -89,10 +90,12 @@
               if (bq.tagName === 'H2') break;
               if (bq.tagName === 'BLOCKQUOTE') {
                 const quoteHref = bq.querySelector('a')
-                const quoteTitle = h`<span class="subtitle trackable-bpm" id="${h2.id}-${++count}">${quoteHref?.textContent || ''}</span>`
-                sectionEl.append(quoteTitle)
-                quoteHref?.remove()
-                h`<${bq} class="mantra"><p>${bq.textContent.trim()}</p></>`
+                if (quoteHref) {
+                  // const quoteTitle = h`<span class="subtitle trackable-bpm youtube-link" id="">${quoteHref?.textContent || ''}</span>`
+                  sectionEl.append(h`<span data-youtube="${quoteHref.href}" class="subtitle trackable-bpm" id="${h2.id}-${++count}">${quoteHref?.textContent || ''}</span>`)
+                  quoteHref?.remove()
+                  h`<${bq} class="mantra"><p>${bq.textContent.trim()}</p></>`
+                }
               }
               sectionEl.appendChild(bq)
             }
@@ -152,6 +155,14 @@
             input.onchange = e => {
               localStorage.setItem(key, input.value)
             }
+          })
+
+          $('[data-youtube]', el => {
+            const url = new URL(el.dataset.youtube)
+            const params = new URLSearchParams(url.search);
+            const t = params.get('t')
+            const duration = parseDuration(t) * 0.001
+            el.append('  ', h`<a href="${el.dataset.youtube}"><small>${Math.floor(duration/60)}:${((duration%60)+'').padStart(2,'0')}</small></a>`)
           })
         </script>
       </main>

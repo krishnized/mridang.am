@@ -162,6 +162,6 @@ blockquote ruby {
   width: 3rem;
   text-decoration: dotted underline;
 }
-.trackable-bpm:hover input.bpm {
+.trackable-bpm input.bpm:hover {
   opacity: 1;
 }

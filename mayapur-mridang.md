@@ -5,9 +5,7 @@ url: https://youtube.com/playlist?list=PLrClz8-gPOVGfG6h6s-FLL-UbA79_eDiq
 author: Bimal Chaitanya Das
 ---
 
-# [{{ page.title }} <br/>_<small>(by {{ page.author }})</small>_]({{ page.url }})
-
-## [Tutorial 1. TE RE KHE TA](https://youtu.be/EO4urNqjjRE?t=2m08s)
+## [Tutorial 1. Te Re Khe Ta](https://youtu.be/EO4urNqjjRE?t=2m08s)
 
 > [Mantra](https://youtu.be/EO4urNqjjRE?t=2m08s)
 TE RE KHE TA
@@ -53,7 +51,7 @@ GHI TE TEE  (GuRu)
 <!-- x4 158 -->
 
 
-## [Tutorial 2. TERE GHENA DERE GHENA DERE GHENA TEREKHETA](https://youtu.be/u4yIidbtO1I)
+## [Tutorial 2. TeRe GheNa DeRe GheNa DeRe GheNa TeReKheTa](https://youtu.be/u4yIidbtO1I)
 
 > [Mantra](https://youtu.be/u4yIidbtO1I?t=0m36s)
 TE RE GHE NA DE RE GHE NA
