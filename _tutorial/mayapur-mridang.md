@@ -5,66 +5,17 @@ url: https://youtube.com/playlist?list=PLrClz8-gPOVGfG6h6s-FLL-UbA79_eDiq
 author: Bimal Chaitanya Das
 ---
 
-## [Tutorial 1. Te Re Khe Ta](https://youtu.be/EO4urNqjjRE?t=2m08s)
 
-> [Mantra](https://youtu.be/EO4urNqjjRE?t=2m08s)
-TE RE KHE TA
-
-> [Vistar 1](https://youtu.be/EO4urNqjjRE?t=3m56s)
-TE RE KHE TA TE RE TE RE KHE TA
-<!-- x4 154 -->
-
-> [Vistar 2](https://youtu.be/EO4urNqjjRE?t=4m32s)
-TE RE KHE TA
-TE RE KHE TA
-TE RE TE RE TE RE KHE TA
-<!-- x4 170 -->
-
-> [Vistar 3](https://youtu.be/EO4urNqjjRE?t=5m04s)
-TA KHA TA KHA
-TE RE KHE TA
-<!-- x4 138 -->
-
-> [Vistar 4](https://youtu.be/EO4urNqjjRE?t=5m46s)
-KHI TI TA KHA
-TE RE KHE TA
-<!-- x4 138 -->
-
-> [Vistar 5](https://youtu.be/EO4urNqjjRE?t=ms)
-TE RE KHE TA
-TE RE KHE TA
-TE RE TE RE TE RE KHE TA
-<!-- x4 142 -->
-
-> [Vistar 6](https://youtu.be/EO4urNqjjRE?t=6m32s)
-TE RE KHE TA
-TE RE KHE TA
-TE RE TE RE TE RE KHE TA
-TA KHA TA KHA
-TE RE KHE TA
-KHI TI TA KHA
-TE RE KHE TA
-<!-- x4 138 -->
-
-> [Mantra](https://youtu.be/EO4urNqjjRE?t=7m29s)
-GHI TE TEE  (GuRu)
-<!-- x4 158 -->
+{% for tutorial in site.tutorial %}
+  {% if tutorial.url contains 'mayapur-mridang/' %}
+  <h2><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></h2>
+  {{ tutorial.content }}
+  {% endif %}
+{% endfor %}
 
 
-## [Tutorial 2. TeRe GheNa DeRe GheNa DeRe GheNa TeReKheTa](https://youtu.be/u4yIidbtO1I)
 
-> [Mantra](https://youtu.be/u4yIidbtO1I?t=0m36s)
-TE RE GHE NA DE RE GHE NA
-DE RE GHE NA TE RE KHE TA
-<!-- x4 132 -->
-
-> [Vistar](https://youtu.be/u4yIidbtO1I?t=2m20s)
-TE RE GHE NA  |  DERE TERE GHE NA
-DERE TERE GHE NA  |  TE RE KHE TA
-<!-- x4 117 -->
-
-
-## [Tutorial 3. GHE NE NE RE GHE NA GE DA. Best Hand twisting Mantra](https://youtu.be/EwyqA48Ap4E)
+## [Tutorial 3. Ghe Ne Ne Re Ghe Na Ge Da. Best Hand twisting Mantra](https://youtu.be/EwyqA48Ap4E)
 
 > [Mantra](https://youtu.be/EwyqA48Ap4E?t=0m30s)
 GHE NE NE RE GHE NA GE DA
@@ -99,7 +50,7 @@ KHE NE NE RE KHE NA
 KHE NE NE RE KHE NA TA --
 <!-- x4 140 -->
 
-## [Tutorial 4. DA DHI NI JHA TERE KHETA TA THI NI TA TERE KHETA](https://youtu.be/WzPiU2EuTfE)
+## [Tutorial 4. Da Dhi Ni Jha TeRe KheTa Ta Thi Ni Ta TeRe KheTa](https://youtu.be/WzPiU2EuTfE)
 
 > [Mantra](https://youtu.be/WzPiU2EuTfE?t=1m11s)
 DA DHI NI
