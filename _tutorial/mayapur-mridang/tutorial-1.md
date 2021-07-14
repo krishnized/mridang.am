@@ -1,4 +1,5 @@
 ---
+layout: tutorial
 title: Tutorial 1. Te Re Khe Ta
 category:
   - tutorial
@@ -7,7 +8,11 @@ tags:
   - hattuti
 video: https://youtu.be/EO4urNqjjRE
 tutorial: 1
+channel:
+author: Bimal Chaitanya Das
+website:
 ---
+
 
 > [Mantra](https://youtu.be/EO4urNqjjRE?t=2m08s)
 TE RE KHE TA

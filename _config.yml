@@ -59,7 +59,3 @@ plugins:
 collections:
   tutorial:
     output: true
-    mayapur-mridang:
-      output: true
-    kksongs:
-      output: true

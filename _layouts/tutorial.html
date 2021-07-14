@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <!-- <link rel="stylesheet" href="{{ 'assets/modern-normalize.css' | relative_url }}"> -->
+    <link rel="stylesheet" href="{{ 'assets/water.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/main.css' | relative_url }}">
+    <script type="text/javascript" src="{{ 'assets/main.js' | relative_url }}" defer async></script>
+    <script type="text/javascript" src="https://www.youtube.com/iframe_api" async defer></script>
+  </head>
+  <body>
+    <nav style="position: fixed;">
+      <!-- <a href="/">Home</a> -->
+      <!-- <a href="/blog/">Blog</a> -->
+      <!-- <a href="#ru">RU</a> -->
+    </nav>
+    <div class="content">
+      <!--<div class="video-container">
+        <iframe id="player" class="video" src="https://www.youtube.com/embed/{{ page.video }}?autoplay=0&fs=0&controls=1&iv_load_policy=3&modestbranding=1&rel=0&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <script>
+        var player;
+        function onYouTubeIframeAPIReady() {
+          player = new YT.Player('player', {
+            events: {
+              'onReady': onPlayerReady
+            }
+          });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(e) {
+          // const [slow] = player.getAvailablePlaybackRates()
+          // player.setVolume(0)
+          // player.setPlaybackRate(slow)
+          // player.playVideo();
+          player.addEventListener('onStateChange', function onPlayerStateChange(e) {
+            // if (e.data === 1) setTimeout(() => {
+            //   player.pauseVideo()
+            //   player.setVolume(1)
+            //   player.setPlaybackRate(1)
+            // }, 300)
+          })
+        }
+
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        // var done = false;
+        // function onPlayerStateChange(event) {
+        //   if (event.data == YT.PlayerState.PLAYING && !done) {
+        //     setTimeout(stopVideo, 6000);
+        //     done = true;
+        //   }
+        // }
+        // function stopVideo() {
+        //   player.stopVideo();
+        // }
+      </script>-->
+
+      <main>
+        <header>
+          <h1>
+            {{ page.title }}
+            {% for tag in page.tags %}<kbd><small>{{ tag }}</small></kbd> {% endfor %}
+            <br/><em><small>by {{ page.author }}</small></em>
+            <!-- <a href="" class="next">→ 2.</a> -->
+          </h1>
+        </header>
+
+        {{ content }}
+        <script type="module">
+          import {$, h} from './assets/lib/spect.js'
+          import parseDuration from './assets/lib/parse-duration.js'
+          import {dict, symbols} from './assets/dict.js'
+
+          // TOC: collect all headers, place into TOC div
+          let tocEl = h`<nav class="toc"></nav>`
+          document.querySelector('.content').appendChild(tocEl)
+
+          // Wrap h2s into sections
+          $('main > h2', h2 => {
+            // const sectionEl = h`<details class=section id=${h2.id}>
+            //   <summary class="title"><h2>${h2.textContent}</h2></summary>
+            // </details>`
+            const sectionEl = h`<section id=${h2.id}><h2 class="title anchorable">${h2.textContent}</h2></section>`
+            let count = 0
+            while (h2?.nextElementSibling) {
+              const bq = h2?.nextElementSibling
+              if (bq.tagName === 'H2') break;
+              if (bq.tagName === 'BLOCKQUOTE') {
+                const quoteHref = bq.querySelector('a')
+                if (quoteHref) {
+                  // const quoteTitle = h`<span class="subtitle trackable-bpm youtube-link" id="">${quoteHref?.textContent || ''}</span>`
+                  sectionEl.append(h`<span data-youtube="${quoteHref.href}" class="anchorable subtitle trackable-bpm" id="${h2.id}-${++count}">${quoteHref?.textContent || ''}</span>`)
+                  quoteHref?.remove()
+                  h`<${bq} class="mantra"><p>${bq.textContent.trim()}</p></>`
+                }
+              }
+              sectionEl.appendChild(bq)
+            }
+            h2.replaceWith(sectionEl)
+          })
+
+          $('main > section', sectionEl => {
+            const title = sectionEl.querySelector('.title').textContent
+            // NOTE: don't update sections to keep even spread of titles
+            let a = h`<a
+              href="#${sectionEl.id}"
+              title=${title}
+              style="top: ${100*sectionEl.offsetTop/document.body.scrollHeight}vh"
+              >
+                ${title.split('.')[0].split(' ')[1]}
+              </a>`
+            tocEl.append(a)
+
+            // highlight in-view title
+            const observer = new IntersectionObserver(entries => {
+              entries.forEach(entry => {
+                const id = entry.target.id;
+                if (entry.isIntersecting) {
+                  tocEl.querySelector(`[href="#${id}"]`).classList.add('in-view');
+                } else {
+                  tocEl.querySelector(`[href="#${id}"]`).classList.remove('in-view');
+                }
+              });
+            });
+            observer.observe(sectionEl)
+          })
+
+
+          // CamelCase mantras, add visual helpers
+          $('.mantra', el => {
+            let str = el.innerHTML
+            for (let key in dict) {
+              str = str.replaceAll(
+                key, `<i class=bol data-sym="${symbols[key] || ''}">${dict[key]}</i>`
+              )
+            }
+            el.innerHTML = str
+          })
+
+          // display anchor
+          $('.anchorable', el => {
+            let a = h`<a.anchor href='#${el.closest('[id]')?.id}'>#</a>`
+            el.prepend(a)
+          })
+
+          $('.trackable-bpm', el => {
+            let input = h`<input.bpm type=number step=1 min=10 max=440/>`
+            el.append(input)
+            const key = `trackable-bpm-${el.id}`
+            let bpm = localStorage.getItem(key)
+            input.value = !bpm ? 120 : bpm = parseInt(bpm)
+            input.onchange = e => {
+              localStorage.setItem(key, input.value)
+            }
+          })
+
+          $('[data-youtube]', el => {
+            const url = new URL(el.dataset.youtube)
+            const params = new URLSearchParams(url.search);
+            const t = params.get('t')
+            const duration = parseDuration(t) * 0.001
+            el.append('  ', h`<a href="${el.dataset.youtube}"><small>${Math.floor(duration/60)}:${((duration%60)+'').padStart(2,'0')}</small></a>`)
+          })
+        </script>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <a href="https://krishnized.com">ॐ</a>
+      <br/>
+    </footer>
+  </body>
+</html>
