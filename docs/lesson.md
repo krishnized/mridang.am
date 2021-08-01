@@ -2,16 +2,16 @@
 
 * Share: achievements, realizations, talas, alankaras 
 * Check homework
-* Showcase (real) impressive taal (find videos too)
+* **Showcase** (real) impressive taal (find videos too)
   * Examples
   * How frequent is that, who plays and where
   * When to play (arati)
-* Tala, mantra, (inc. sanskrit) 
+* **Structure**: Tala, mantra, (inc. sanskrit) 
   * count on fingers
   * ...learn mantra
-* Hands walkthrough
+* **Hands** walkthrough
   * ...learn beat
-* Playing nuances: 
+* **Playing nuances**
   * hand tricks
   * accents
   * variations
@@ -20,11 +20,11 @@
   * taals
   * pre-exercise (hattuti) to get onboard
   * is it possible to transition to other tala/dimension
-* Applications
+* **Applications**
   * ...possible kirtan melodies
   * karatal lines
   * clap lines
   * ...signing exercise
-* Improvisation
+* Imrovisation
 * Kirtan practice
 * Home work
