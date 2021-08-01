@@ -1,14 +1,18 @@
 # Montreal mridanga. Lesson sections
 
-* [ ] Share what was the last week, achievements, realizations, new taals 
-* [ ] Check homework
-* [ ] Showcase (real) impressive taal (find videos too)
-* [ ] Tala, mantra, (inc. sanskrit) 
+* Share: achievements, realizations, talas, alankaras 
+* Check homework
+* Showcase (real) impressive taal (find videos too)
+  * Examples
+  * How frequent is that, who plays and where
+  * When to play (arati)
+* Tala, mantra, (inc. sanskrit) 
   * count on fingers
   * ...learn mantra
-* [ ] Hands
+* Hands walkthrough
   * ...learn beat
-* [ ] Playing nuances: 
+* Playing nuances: 
+  * hand tricks
   * accents
   * variations
   * speeds: max, min, average
@@ -16,9 +20,11 @@
   * taals
   * pre-exercise (hattuti) to get onboard
   * is it possible to transition to other tala/dimension
-* [ ] Applications
+* Applications
   * ...possible kirtan melodies
   * karatal lines
   * clap lines
   * ...signing exercise
-* [ ] Hometask
+* Improvisation
+* Kirtan practice
+* Home work
