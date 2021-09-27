@@ -19,7 +19,7 @@
   * transitions
   * taals
   * pre-exercise (hattuti) to get onboard
-  * is it possible to transition to other tala/dimension
+  * is it possible to transition to other tala/meter
 * **Applications**
   * ...possible kirtan melodies
   * karatal lines
