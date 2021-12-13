@@ -1,7 +1,11 @@
 # Montreal mridanga. Lesson sections
 
-* Share: achievements, realizations, talas, alankaras 
-* Check homework
+* **Share**
+  * Homework
+  * Realizations
+  * Achievements
+  * Talas
+  * Alankaras 
 * **Showcase** (real) impressive taal (find videos too)
   * Examples
   * How frequent is that, who plays and where
@@ -15,9 +19,10 @@
   * hand tricks
   * accents
   * variations
+  * decorations
   * speeds: max, min, average
   * transitions
-  * taals
+  * tehais
   * pre-exercise (hattuti) to get onboard
   * is it possible to transition to other tala/meter
 * **Applications**
@@ -25,6 +30,6 @@
   * karatal lines
   * clap lines
   * ...signing exercise
-* Imrovisation
+* Imrovisation (phrases)
 * Kirtan practice
 * Home work
